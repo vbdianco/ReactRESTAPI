@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{12DB1FA2-6638-42F3-BF6C-4A1EABA3D28C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
+    <Files>
+      <File FileName="Controllers/DepartmentController.cs" Line="34" Column="1" />
+      <File FileName="Controllers/EmployeeController.cs" Line="37" Column="1" />
+      <File FileName="Startup.cs" Line="70" Column="16" />
+      <File FileName="appsettings.json" Line="3" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RESTAPI" expanded="True">
+            <Node name="RESTAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RESTAPI PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
