@@ -1,17 +1,21 @@
 ﻿<Properties StartupConfiguration="{12DB1FA2-6638-42F3-BF6C-4A1EABA3D28C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Controllers/DepartmentController.cs" Line="34" Column="1" />
       <File FileName="Controllers/EmployeeController.cs" Line="37" Column="1" />
       <File FileName="Startup.cs" Line="70" Column="16" />
-      <File FileName="appsettings.json" Line="3" Column="37" />
+      <File FileName="appsettings.json" Line="3" Column="57" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RESTAPI" expanded="True">
             <Node name="RESTAPI" expanded="True">
+              <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>

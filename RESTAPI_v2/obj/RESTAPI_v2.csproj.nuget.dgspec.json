@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI/RESTAPI.csproj": {}
+    "/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/RESTAPI_v2.csproj": {}
   },
   "projects": {
-    "/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI/RESTAPI.csproj": {
+    "/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/RESTAPI_v2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI/RESTAPI.csproj",
-        "projectName": "RESTAPI",
-        "projectPath": "/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI/RESTAPI.csproj",
+        "projectUniqueName": "/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/RESTAPI_v2.csproj",
+        "projectName": "RESTAPI_v2",
+        "projectPath": "/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/RESTAPI_v2.csproj",
         "packagesPath": "/Users/vincedianco/.nuget/packages/",
-        "outputPath": "/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI/obj/",
+        "outputPath": "/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vincedianco/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
@@ -25,8 +25,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,12 +37,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[3.1.32, )"
+              "version": "[6.0.33, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -62,8 +62,16 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[3.1.32, 3.1.32]"
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
             }
           ],
           "frameworkReferences": {

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "X6PC+Uo5fu8wgF2sI8bZ3GFca3/9TG2v6N8h5lpVMOsr1W9blr1T18ebalJAJjTMSXY/wGx6egIC28Rbt5BS7Q==",
+  "dgSpecHash": "DJDUlqm3nbZjV4dOsuxcRStVgpUkCeHiULikHUzytKJwulwT8XnfZbRvOnAdXmj35ZPa6wKSUjpyQ1BMdjyMtA==",
   "success": true,
-  "projectFilePath": "/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI/RESTAPI.csproj",
+  "projectFilePath": "/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/RESTAPI_v2.csproj",
   "expectedPackageFiles": [
-    "/Users/vincedianco/.nuget/packages/microsoft.aspnetcore.jsonpatch/3.1.32/microsoft.aspnetcore.jsonpatch.3.1.32.nupkg.sha512",
-    "/Users/vincedianco/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/3.1.32/microsoft.aspnetcore.mvc.newtonsoftjson.3.1.32.nupkg.sha512",
+    "/Users/vincedianco/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.33/microsoft.aspnetcore.jsonpatch.6.0.33.nupkg.sha512",
+    "/Users/vincedianco/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.33/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.33.nupkg.sha512",
     "/Users/vincedianco/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/vincedianco/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/Users/vincedianco/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
@@ -18,7 +18,9 @@
     "/Users/vincedianco/.nuget/packages/system.data.sqlclient/4.8.6/system.data.sqlclient.4.8.6.nupkg.sha512",
     "/Users/vincedianco/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
     "/Users/vincedianco/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
-    "/Users/vincedianco/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.32/microsoft.netcore.app.host.osx-x64.3.1.32.nupkg.sha512"
+    "/Users/vincedianco/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/vincedianco/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.31/microsoft.netcore.app.host.osx-x64.6.0.31.nupkg.sha512",
+    "/Users/vincedianco/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
   ],
   "logs": []
 }
