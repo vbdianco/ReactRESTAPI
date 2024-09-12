@@ -1,4 +1,28 @@
 ﻿<Properties StartupConfiguration="{1EC1FBE6-F9E9-407B-87EE-1201533C2FC4}|Default">
-  <MonoDevelop.Ide.ItemProperties.RESTAPI__v2 FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Startup.cs" />
+      <File FileName="Controllers/DepartmentController.cs" Line="24" Column="1" />
+      <File FileName="Controllers/EmployeeController.cs" />
+      <File FileName="Models/Department.cs" />
+      <File FileName="Models/Employee.cs" />
+      <File FileName="Program.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RESTAPI_v2">
+            <Node name="RESTAPI_v2" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RESTAPI__v2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

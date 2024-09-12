@@ -14,17 +14,17 @@ export class Employee extends Component{
             Department:"",
             DateOfJoining:"",
             PhotoFileName:"kung fu panda Pho.png",
-            PhotoPath: variables.PHOTO_URL
+            PhotoPath: variables.AZURE_PHOTO_URL
         }
     }
 
     refreshList(){
-        fetch(variables.API_URL+'employee')
+        fetch(variables.AZURE_API_URL+'employee')
         .then(response=>response.json())
         .then(data=>{
             this.setState({employees:data});
         });
-        fetch(variables.API_URL+'department')
+        fetch(variables.AZURE_API_URL+'department')
         .then(response=>response.json())
         .then(data=>{
             this.setState({departments:data});
@@ -70,7 +70,7 @@ export class Employee extends Component{
     }
 
     createClick(){
-        fetch(variables.API_URL+'employee',{
+        fetch(variables.AZURE_API_URL+'employee',{
             method:'POST',
             headers:{
                 'Accept':'application/json',
@@ -94,7 +94,7 @@ export class Employee extends Component{
     }
 
     updateClick(){
-        fetch(variables.API_URL+'employee',{
+        fetch(variables.AZURE_API_URL+'employee',{
             method:'PUT',
             headers:{
                 'Accept':'application/json',
@@ -120,7 +120,7 @@ export class Employee extends Component{
 
     deleteClick(id){
         if(window.confirm('Are you sure you want ot delete this Department?')){
-            fetch(variables.API_URL+'employee/'+id,{
+            fetch(variables.AZURE_API_URL+'employee/'+id,{
                 method:'DELETE',
                 headers:{
                     'Accept':'application/json',
@@ -142,7 +142,7 @@ export class Employee extends Component{
 
         const formData = new FormData();
         formData.append("file",e.target.files[0],e.target.files[0].name);
-        fetch(variables.API_URL+"employee/savefile",{
+        fetch(variables.AZURE_API_URL+"employee/savefile",{
             method:'POST',
             body:formData
         })

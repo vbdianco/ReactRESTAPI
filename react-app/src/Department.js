@@ -56,7 +56,7 @@ export class Department extends Component{
     }
 
     refreshList(){
-        fetch(variables.API_URL+'department')
+        fetch(variables.AZURE_API_URL+'department')
         .then(response=>response.json())
         .then(data=>{
             this.setState({departments:data,departmentsWithoutFilter:data});
@@ -88,7 +88,7 @@ export class Department extends Component{
     }
 
     createClick(){
-        fetch(variables.API_URL+'department',{
+        fetch(variables.AZURE_API_URL+'department',{
             method:'POST',
             headers:{
                 'Accept':'application/json',
@@ -108,7 +108,7 @@ export class Department extends Component{
     }
 
     updateClick(){
-        fetch(variables.API_URL+'department',{
+        fetch(variables.AZURE_API_URL+'department',{
             method:'PUT',
             headers:{
                 'Accept':'application/json',
@@ -130,7 +130,7 @@ export class Department extends Component{
 
     deleteClick(id){
         if(window.confirm('Are you sure you want ot delete this Department?')){
-            fetch(variables.API_URL+'department/'+id,{
+            fetch(variables.AZURE_API_URL+'department/'+id,{
                 method:'DELETE',
                 headers:{
                     'Accept':'application/json',

@@ -1,0 +1,17 @@
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/RESTAPI_v2
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/appsettings.Development.json
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/appsettings.json
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/RESTAPI_v2.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/RESTAPI_v2.deps.json
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/RESTAPI_v2.runtimeconfig.json
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/RESTAPI_v2.pdb
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/Microsoft.AspNetCore.JsonPatch.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/Newtonsoft.Json.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/Newtonsoft.Json.Bson.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/System.Data.SqlClient.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/runtimes/win-arm64/native/sni.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/runtimes/win-x64/native/sni.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/runtimes/win-x86/native/sni.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/PubTmp/Out/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
