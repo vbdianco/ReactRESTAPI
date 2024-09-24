@@ -1,3 +1,4 @@
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/Photos/kung fu panda Pho.png
 /Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/RESTAPI_v2
 /Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/appsettings.Development.json
 /Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/appsettings.json
@@ -7,8 +8,13 @@
 /Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/RESTAPI_v2.pdb
 /Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/Microsoft.AspNetCore.JsonPatch.dll
 /Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/Microsoft.AspNetCore.Mvc.Versioning.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/Microsoft.OpenApi.dll
 /Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/Newtonsoft.Json.dll
 /Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/Newtonsoft.Json.Bson.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/System.Data.SqlClient.dll
 /Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/runtimes/win-arm64/native/sni.dll
 /Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/publish/runtimes/win-x64/native/sni.dll

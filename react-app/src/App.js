@@ -34,7 +34,7 @@ function App() {
         <Routes>
           <Route path="/home" Component={Home}/>
           <Route path="/department" Component={Department}/>
-          <Route path="/Employee" Component={Employee}/>
+          <Route path="/employee" Component={Employee}/>
         </Routes>
     </div>
     </BrowserRouter>

@@ -22,10 +22,10 @@ export class Department extends Component{
         var DepartmentNameFilter=this.state.DepartmentNameFilter;
         var filteredData=this.state.departmentsWithoutFilter.filter(
             function(el){
-                return el.DepartmentId.toString().toLowerCase().includes(
+                return el.departmentId.toString().toLowerCase().includes(
                     DepartmentIdFilter.toString().trim().toLowerCase()
                 )&&
-                el.DepartmentName.toString().toLowerCase().includes(
+                el.departmentName.toString().toLowerCase().includes(
                     DepartmentNameFilter.toString().trim().toLowerCase()
                 )
             }
@@ -82,8 +82,8 @@ export class Department extends Component{
     editClick(dep){
         this.setState({
             modalTitle:"Edit Department",
-            DepartmentId:dep.DepartmentId,
-            DepartmentName:dep.DepartmentName
+            DepartmentId:dep.departmentId,
+            DepartmentName:dep.departmentName
         });
     }
 
@@ -166,12 +166,12 @@ export class Department extends Component{
                             <th>
                                 <div className="d-flex flex-row">
                                     <input className="form-control m-2" onChange={this.changeDepartmentIdFilter} placeholder="filter"/>
-                                    <button type="button" className="btn btn-light" onClick={()=>this.sortResult('DepartmentId',true)}>
+                                    <button type="button" className="btn btn-light" onClick={()=>this.sortResult('departmentId',true)}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-down-square-fill" viewBox="0 0 16 16">
                                             <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0"/>
                                         </svg>
                                     </button>
-                                    <button type="button" className="btn btn-light" onClick={()=>this.sortResult('DepartmentId',false)}>
+                                    <button type="button" className="btn btn-light" onClick={()=>this.sortResult('departmentId',false)}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
                                             <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0"/>
                                         </svg>
@@ -182,12 +182,12 @@ export class Department extends Component{
                             <th>
                                 <div className="d-flex flex-row">
                                     <input className="form-control m-2" onChange={this.changeDepartmentNameFilter} placeholder="filter"/>
-                                    <button type="button" className="btn btn-light" onClick={()=>this.sortResult('DepartmentName',true)}>
+                                    <button type="button" className="btn btn-light" onClick={()=>this.sortResult('departmentName',true)}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-down-square-fill" viewBox="0 0 16 16">
                                             <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0"/>
                                         </svg>
                                     </button>
-                                    <button type="button" className="btn btn-light" onClick={()=>this.sortResult('DepartmentName',false)}>
+                                    <button type="button" className="btn btn-light" onClick={()=>this.sortResult('departmentName',false)}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
                                             <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0"/>
                                         </svg>
@@ -202,9 +202,9 @@ export class Department extends Component{
                     </thead>
                     <tbody>
                             {departments.map(dep=>
-                                <tr key={dep.DepartmentId}>
-                                    <td>{dep.DepartmentId}</td>
-                                    <td>{dep.DepartmentName}</td>
+                                <tr key={dep.departmentId}>
+                                    <td>{dep.departmentId}</td>
+                                    <td>{dep.departmentName}</td>
                                     <td>
                                         <button type="button" className="btn btn-light mr-1" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={()=>this.editClick(dep)}>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-pencil-square" viewBox="0 0 16 16">
@@ -212,7 +212,7 @@ export class Department extends Component{
                                                 <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
                                             </svg>
                                         </button>
-                                        <button type="button" className="btn btn-light mr-1" onClick={()=>this.deleteClick(dep.DepartmentId)}>
+                                        <button type="button" className="btn btn-light mr-1" onClick={()=>this.deleteClick(dep.departmentId)}>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-trash" viewBox="0 0 16 16">
                                                 <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"/>
                                                 <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"/>

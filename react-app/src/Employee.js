@@ -61,11 +61,11 @@ export class Employee extends Component{
     editClick(emp){
         this.setState({
             modalTitle:"Edit Employee",
-            EmployeeId:emp.EmployeeId,
-            EmployeeName:emp.EmployeeName,
-            Department:emp.Department,
-            DateOfJoining:emp.DateOfJoining,
-            PhotoFileName:emp.PhotoFileName
+            EmployeeId:emp.employeeId,
+            EmployeeName:emp.employeeName,
+            Department:emp.department,
+            DateOfJoining:emp.dateOfJoining,
+            PhotoFileName:emp.photoFileName
         });
     }
 
@@ -182,11 +182,11 @@ export class Employee extends Component{
                     </thead>
                     <tbody>
                             {employees.map(emp=>
-                                <tr key={emp.EmployeeId}>
-                                    <td>{emp.EmployeeId}</td>
-                                    <td>{emp.EmployeeName}</td>
-                                    <td>{emp.Department}</td>
-                                    <td>{emp.DateOfJoining}</td>
+                                <tr key={emp.employeeId}>
+                                    <td>{emp.employeeId}</td>
+                                    <td>{emp.employeeName}</td>
+                                    <td>{emp.department}</td>
+                                    <td>{emp.dateOfJoining}</td>
                                     <td>
                                         <button type="button" className="btn btn-light mr-1" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={()=>this.editClick(emp)}>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-pencil-square" viewBox="0 0 16 16">
@@ -227,8 +227,8 @@ export class Employee extends Component{
                                             <select className="form-select"
                                                 onChange={this.changeDepartment}
                                                 value={Department}>
-                                                    {departments.map(dep=><option key={dep.DepartmentId}>
-                                                        {dep.DepartmentName}
+                                                    {departments.map(dep=><option key={dep.departmentId}>
+                                                        {dep.departmentName}
                                                     </option>)}
                                             </select>
                                         </div>

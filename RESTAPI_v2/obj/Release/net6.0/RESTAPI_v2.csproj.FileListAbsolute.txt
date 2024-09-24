@@ -36,3 +36,9 @@
 /Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/ref/RESTAPI_v2.dll
 /Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/RESTAPI_v2.sourcelink.json
 /Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/RESTAPI_v2.csproj.Up2Date
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/Microsoft.AspNetCore.Mvc.Versioning.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/Microsoft.OpenApi.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/bin/Release/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/vincedianco/Projects/ReactRESTAPI/RESTAPI_v2/obj/Release/net6.0/RESTAPI_v2.MvcApplicationPartsAssemblyInfo.cs
