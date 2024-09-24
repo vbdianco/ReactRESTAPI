@@ -16,7 +16,6 @@ steps:
 - task: UseDotNet@2
   displayName: 'Use .NET SDK 6.x'
   inputs:
-    packageType: sdk
     version: '6.x'
 
 - task: DotNetCoreCLI@2
@@ -31,6 +30,19 @@ steps:
     command: 'build'
     argument: '--no-restore --configuration Release'
     projects: '**/RESTAPI_v2/RESTAPI_v2.csproj'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Publish the project - Release'
+  inputs:
+    command:  'publish'
+    projects: '**/RESTAPI_v2/RESTAPI_v2.csproj'
+    publishWebProjects: false
+    arguments: '--no-build --configuration Release --output $(Build.ArtifactsStagingDirectory)/Release'
+    zipAfterPublish: true
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+  condition: succeeded()
 
 #- script: dotnet build --configuration $(buildConfiguration)
 #  displayName: 'dotnet build $(buildConfiguration)'
